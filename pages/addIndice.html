@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://lucid-ui.netlify.app/main.css" />
+    <link rel="stylesheet" href="/pages/index.css" />
+    <title>Lucid Ui | Tradebook</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <section class="navbar-section">
+        <!-- navbar -->
+        <nav class="navbar li-shadow">
+          <div class="nav-brand">
+            <a href="" class="logo-a">
+              <img
+                class="logo-s"
+                src="/images/02 - Colorful - Icon Only.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="nav-hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="nav-menu">
+            <div class="nav-start">
+              <a href="dashboard.html" class="nav-item link">Dashboard</a>
+              <a href="portfolio.html" class="nav-item link">Portfolio</a>
+              <a href="searchpage.html" class="nav-item link">Search</a>
+            </div>
+            <div class="nav-end">
+              <a href="sign-up.html"
+                ><button class="btn-secondary nav-btn btn-small">
+                  Sign up
+                </button></a
+              >
+              <a href="login.html"
+                ><button class="btn-primary nav-btn btn-small">
+                  Log in
+                </button></a
+              >
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <div class="modal p-x-4 center-x m-up-6 shadow">
+      <button class="card-cross btn-close is-medium">
+        <i class="fas fa-times"></i>
+      </button>
+      <i class="modal-icon is-blue far fa-address-card"></i>
+      <div class="textbox">
+        <div class="title text-center">Add to portfolio</div>
+        <div class="m-up-2 center-x form-div">
+          <p class="form-label">Price</p>
+          <input
+            type="text"
+            class="form-input input-focused"
+            placeholder="Indice price"
+            required
+          />
+        </div>
+        <div class="m-up-2 center-x form-div">
+          <p class="form-label">Quantity</p>
+          <input
+            type="text"
+            class="form-input input-focused"
+            placeholder="Number of units "
+            required
+          />
+        </div>
+        <div class="m-up-2 center-x form-div">
+          <p class="form-label">Amount</p>
+          <input
+            type="text"
+            class="form-input input-focused"
+            placeholder="Total amount"
+            required
+          />
+        </div>
+      </div>
+      <div class="btn-horizontal">
+        <button class="btn-primary width-100 has-green m-up-4 btn-small">
+          Add
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
