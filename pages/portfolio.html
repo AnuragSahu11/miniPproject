@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://lucid-ui.netlify.app/main.css" />
+    <link rel="stylesheet" href="/pages/portfolio.css" />
+    <title>Lucid Ui | Tradebook</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <section class="navbar-section">
+        <!-- navbar -->
+        <nav class="navbar li-shadow">
+          <div class="nav-brand">
+            <a href="" class="logo-a">
+              <img
+                class="logo-s"
+                src="/images/02 - Colorful - Icon Only.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="nav-hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="nav-menu">
+            <div class="nav-start">
+              <a href="" class="nav-item link">Home</a>
+              <a href="" class="nav-item link">Product</a>
+              <a href="" class="nav-item link">About Us</a>
+              <a href="" class="nav-item link">Contact Us</a>
+            </div>
+            <div class="nav-end">
+              <a href="pages/sign-up.html"
+                ><button class="btn-secondary nav-btn btn-small">
+                  Sign up
+                </button></a
+              >
+              <a href="pages/login.html"
+                ><button class="btn-primary nav-btn btn-small">
+                  Log in
+                </button></a
+              >
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <div class="portfolio">
+        <div class="grid-20-80 grid-portfolio">
+          <div class="filter-menu p-x-4 p-up-2 dk-shadow flex-c-w">
+            <div
+              class="filter-menu-responsive flex-row align-center space-between"
+            >
+              <a href=""><div class="title is-dark">Filters</div></a>
+              <a href="" class="link-secondary m-up-1 is-2">Clear all</a>
+            </div>
+            <div class="list-container">
+              <div class="title semibold">Category</div>
+              <ul class="list list-none">
+                <li class="list-items">
+                  <label class="is-light form-checkbox is-2">
+                    <input type="checkbox" />
+                    Stocks
+                  </label>
+                </li>
+                <li class="list-items">
+                  <label class="is-light form-checkbox is-2">
+                    <input type="checkbox" />
+                    Forex
+                  </label>
+                </li>
+                <li class="list-items">
+                  <label class="is-light form-checkbox is-2">
+                    <input type="checkbox" />
+                    Crypto
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="list-container">
+              <div class="title semibold">Show Only</div>
+              <ul class="list list-none">
+                <li class="list-items">
+                  <label class="form-radio-label">
+                    <input type="radio" name="opinion" checked />
+                    <i></i>
+                    <span class="form-radio-button-text is-2 is-medium"
+                      >Profit trades</span
+                    >
+                  </label>
+                </li>
+                <li class="list-items">
+                  <label class="form-radio-label">
+                    <input type="radio" name="opinion" checked />
+                    <i></i>
+                    <span class="form-radio-button-text is-2 is-medium"
+                      >Loss trades</span
+                    >
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="list-container">
+              <div class="title semibold">Sort By</div>
+              <ul class="list list-none">
+                <li class="list-items">
+                  <label class="form-radio-label">
+                    <input type="radio" name="opinion" checked />
+                    <i></i>
+                    <span class="form-radio-button-text is-light is-2"
+                      >Investment high to low</span
+                    >
+                  </label>
+                </li>
+                <li class="list-items">
+                  <label class="form-radio-label">
+                    <input type="radio" name="opinion" checked />
+                    <i></i>
+                    <span class="form-radio-button-text is-light is-2"
+                      >Investment low to high</span
+                    >
+                  </label>
+                </li>
+                <li class="list-items">
+                  <label class="form-radio-label">
+                    <input type="radio" name="opinion" checked />
+                    <i></i>
+                    <span class="form-radio-button-text is-light is-2"
+                      >Profit high to low</span
+                    >
+                  </label>
+                </li>
+                <li class="list-items">
+                  <label class="form-radio-label">
+                    <input type="radio" name="opinion" checked />
+                    <i></i>
+                    <span class="form-radio-button-text is-light is-2"
+                      >Loss high to low</span
+                    >
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- data -->
+          <div class="portfolio-data p-x-3">
+            <div class="title is-6 light">Portfolio</div>
+            <div class="portfolio-trades center-x m-up-2">
+              <div class="trades p-y-1 li-shadow space-evenly align-c flex-r-w">
+                <div class="trade-current m-dw-0">
+                  <div class="text is-6 text-center bold is-dark">
+                    5000 <span class="is-4 is-green"> 10%</span>
+                  </div>
+                </div>
+                <div class="trades-name">
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Name</div>
+                    <div class="text is-4 light is-dark">TATA MOTORS</div>
+                  </div>
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Symbol</div>
+                    <div class="text is-4 light is-dark">TATA</div>
+                  </div>
+                </div>
+                <div class="trades-price">
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Bought Price</div>
+                    <div class="text is-4 light is-dark">450</div>
+                  </div>
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Current Price</div>
+                    <div class="text is-4 light is-dark">500</div>
+                  </div>
+                </div>
+                <div class="trades-price">
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Quantity</div>
+                    <div class="text is-4 light is-dark">10</div>
+                  </div>
+                </div>
+
+                <div class="trades-button flex-col">
+                  <button class="btn-primary btn-small shadow has-red">
+                    Delete
+                  </button>
+                  <button class="btn-primary btn-small shadow has-green m-up-2">
+                    Close Trade
+                  </button>
+                </div>
+              </div>
+              <div class="trades p-y-1 li-shadow space-evenly align-c flex-r-w">
+                <div class="trade-current m-dw-0">
+                  <div class="text is-6 text-center bold is-dark">
+                    2301 <span class="is-4 is-green"> 3%</span>
+                  </div>
+                </div>
+                <div class="trades-name">
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Name</div>
+                    <div class="text is-4 light is-dark">
+                      MAHINDRA & MAHINDRA
+                    </div>
+                  </div>
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Symbol</div>
+                    <div class="text is-4 light is-dark">M&M</div>
+                  </div>
+                </div>
+                <div class="trades-price">
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Bought Price</div>
+                    <div class="text is-4 light is-dark">853</div>
+                  </div>
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Current Price</div>
+                    <div class="text is-4 light is-dark">900</div>
+                  </div>
+                </div>
+                <div class="trades-price">
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Quantity</div>
+                    <div class="text is-4 light is-dark">5</div>
+                  </div>
+                </div>
+
+                <div class="trades-button flex-col">
+                  <button class="btn-primary btn-small shadow has-red">
+                    Delete
+                  </button>
+                  <button class="btn-primary btn-small shadow has-green m-up-2">
+                    Close Trade
+                  </button>
+                </div>
+              </div>
+              <div class="trades p-y-1 li-shadow space-evenly align-c flex-r-w">
+                <div class="trade-current m-dw-0">
+                  <div class="text is-6 text-center bold is-dark">
+                    13400 <span class="is-4 is-green"> 11%</span>
+                  </div>
+                </div>
+                <div class="trades-name">
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Name</div>
+                    <div class="text is-4 light is-dark">TATA MOTORS</div>
+                  </div>
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Symbol</div>
+                    <div class="text is-4 light is-dark">TATA</div>
+                  </div>
+                </div>
+                <div class="trades-price">
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Bought Price</div>
+                    <div class="text is-4 light is-dark">450</div>
+                  </div>
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Current Price</div>
+                    <div class="text is-4 light is-dark">500</div>
+                  </div>
+                </div>
+                <div class="trades-price">
+                  <div class="trade-data">
+                    <div class="text is-3 semibold">Quantity</div>
+                    <div class="text is-4 light is-dark">10</div>
+                  </div>
+                </div>
+
+                <div class="trades-button flex-col">
+                  <button class="btn-primary btn-small shadow has-red">
+                    Delete
+                  </button>
+                  <button class="btn-primary btn-small shadow has-green m-up-2">
+                    Close Trade
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
