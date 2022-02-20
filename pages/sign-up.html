@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://lucid-ui.netlify.app/main.css" />
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="/pages/css/login.css" />
     <title>Sign Up</title>
   </head>
   <body>
@@ -22,6 +22,7 @@
           </a>
         </div>
         <div class="nav-hamburger">
+          <i class="dark-mode fas m-r-2 fas fa-moon"></i>
           <i class="fas fa-bars"></i>
         </div>
         <div class="nav-menu">
@@ -31,6 +32,9 @@
             <a href="searchpage.html" class="nav-item link">Search</a>
           </div>
           <div class="nav-end">
+            <button class="dark-mode btn-icon nav-icons m-x-1">
+              <i class="fas fa-moon"></i>
+            </button>
             <a href="sign-up.html"
               ><button class="btn-secondary nav-btn btn-small">
                 Sign up
@@ -45,16 +49,23 @@
     </section>
     <!-- login -->
     <section class="signup-section p-x-1">
-      <div class="signup b-radius center-x m-up-6 shadow p-y-2 p-x-4">
+      <div class="signup b-radius center-x elevated m-up-6 shadow p-y-2 p-x-4">
         <div class="textbox">
           <div class="title">Sign Up</div>
         </div>
         <div class="form-div m-up-1">
-          <p class="form-label">Email</p>
+          <p class="form-label">Full Name</p>
           <input
             type="text"
             class="form-input input-focused"
-            placeholder="enter your email id"
+            placeholder="enter your full name"
+            required
+          />
+          <p class="form-label m-up-2">Email</p>
+          <input
+            type="email"
+            class="form-input input-focused"
+            placeholder="enter your email"
             required
           />
           <p class="form-label m-up-2">Password</p>
@@ -76,5 +87,6 @@
         </div>
       </div>
     </section>
+    <script src="https://lucid-ui.netlify.app/components/darkmode/darkmode.js"></script>
   </body>
 </html>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://lucid-ui.netlify.app/main.css" />
-    <link rel="stylesheet" href="/pages/portfolio.css" />
+    <link rel="stylesheet" href="/pages/css/portfolio.css" />
     <title>Lucid Ui | Tradebook</title>
   </head>
   <body>
@@ -24,6 +24,7 @@
             </a>
           </div>
           <div class="nav-hamburger">
+            <i class="dark-mode fas m-r-2 fas fa-moon"></i>
             <i class="fas fa-bars"></i>
           </div>
           <div class="nav-menu">
@@ -33,6 +34,9 @@
               <a href="searchpage.html" class="nav-item link">Search</a>
             </div>
             <div class="nav-end">
+              <button class="dark-mode btn-icon nav-icons m-x-1">
+                <i class="fas fa-moon"></i>
+              </button>
               <a href="sign-up.html"
                 ><button class="btn-secondary nav-btn btn-small">
                   Sign up
@@ -53,7 +57,7 @@
         <div class="grid-20-80 grid-portfolio">
           <div class="filter-menu p-x-4 p-up-2 dk-shadow flex-c-w">
             <div
-              class="filter-menu-responsive flex-row align-center space-between"
+              class="filter-menu-responsive p-dw-1 flex-row align-center space-between"
             >
               <a href=""><div class="title is-dark">Filters</div></a>
               <a href="" class="link-secondary m-up-1 is-2">Clear all</a>
@@ -147,10 +151,10 @@
             </div>
           </div>
           <!-- data -->
-          <div class="portfolio-data p-x-3">
+          <div class="portfolio-data p-dw-5 p-x-3">
             <div class="title is-6 light">Portfolio</div>
             <div class="portfolio-trades center-x m-up-2">
-              <div class="trades p-y-1 li-shadow space-evenly align-c flex-r-w">
+              <div class="trades p-y-3 elevated li-shadow space-evenly align-c flex-r-w">
                 <div class="trade-current m-dw-0">
                   <div class="text is-6 text-center bold is-dark">
                     5000 <span class="is-4 is-green"> 10%</span>
@@ -192,7 +196,7 @@
                   </button>
                 </div>
               </div>
-              <div class="trades p-y-1 li-shadow space-evenly align-c flex-r-w">
+              <div class="trades p-y-3 li-shadow elevated space-evenly align-c flex-r-w">
                 <div class="trade-current m-dw-0">
                   <div class="text is-6 text-center bold is-dark">
                     2301 <span class="is-4 is-green"> 3%</span>
@@ -236,7 +240,7 @@
                   </button>
                 </div>
               </div>
-              <div class="trades p-y-1 li-shadow space-evenly align-c flex-r-w">
+              <div class="trades p-y-3 li-shadow elevated space-evenly align-c flex-r-w">
                 <div class="trade-current m-dw-0">
                   <div class="text is-6 text-center bold is-dark">
                     13400 <span class="is-4 is-green"> 11%</span>
@@ -283,5 +287,6 @@
         </div>
       </div>
     </main>
+    <script src="https://lucid-ui.netlify.app/components/darkmode/darkmode.js"></script>
   </body>
 </html>
