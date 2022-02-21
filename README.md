@@ -12,9 +12,9 @@ You can see the [Dashboard](/pages/dashboard.html) to see the summary of all you
 <hr>
 
 ### Pages
-- [Signup](/pages/signup.html)
-- [Login](/pages/login.html)
-- [Search indices](/pages/searchpage.html)
-- [Add indice](/pages/addIndice.html)
-- [Portfolio](/page/portfolio.html)
-- [Dashboard](/pages/dashboard.html)
+- [Signup](https://lucid-tradebook.netlify.app/pages/sign-up.html)
+- [Login](https://lucid-tradebook.netlify.app/pages/login.html)
+- [Search indices](https://lucid-tradebook.netlify.app/pages/searchpage.html)
+- [Add indice](https://lucid-tradebook.netlify.app/pages/addIndice.html)
+- [Portfolio](https://lucid-tradebook.netlify.app/page/portfolio.html)
+- [Dashboard](https://lucid-tradebook.netlify.app/pages/dashboard.html)
