@@ -14,7 +14,8 @@ You can see the [Dashboard](/pages/dashboard.html) to see the summary of all you
 ### Pages
 - [Signup](https://lucid-tradebook.netlify.app/pages/sign-up.html)
 - [Login](https://lucid-tradebook.netlify.app/pages/login.html)
+- [Hoempage](https://lucid-tradebook.netlify.app)
 - [Search indices](https://lucid-tradebook.netlify.app/pages/searchpage.html)
 - [Add indice](https://lucid-tradebook.netlify.app/pages/addIndice.html)
-- [Portfolio](https://lucid-tradebook.netlify.app/page/portfolio.html)
+- [Portfolio](https://lucid-tradebook.netlify.app/pages/portfolio.html)
 - [Dashboard](https://lucid-tradebook.netlify.app/pages/dashboard.html)
