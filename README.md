@@ -22,4 +22,4 @@ You can see the [Dashboard](https://lucid-tradebook.netlify.app/pages/dashboard.
 
 <hr>
 
-Lucid Tradebook is completely based on Lucid Ui
+Lucid Tradebook is completely based on Lucid Ui component library.
