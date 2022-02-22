@@ -19,3 +19,7 @@ You can see the [Dashboard](https://lucid-tradebook.netlify.app/pages/dashboard.
 - [Add indice](https://lucid-tradebook.netlify.app/pages/addIndice.html)
 - [Portfolio](https://lucid-tradebook.netlify.app/pages/portfolio.html)
 - [Dashboard](https://lucid-tradebook.netlify.app/pages/dashboard.html)
+
+<hr>
+
+Lucid Tradebook is completely based on Lucid Ui
